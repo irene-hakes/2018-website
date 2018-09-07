@@ -25,7 +25,164 @@ body {
     /* background-color: white; */
     font-family: 'Open Sans', sans-serif;
     color: #333;
+    height: 100%;
+    text-align: center;
 }
+
+.container {
+    background-color: white;
+    width: 75vw;
+    min-height: 75vh;
+    box-shadow: 1vh 1vh #76777b;
+    text-align: center;
+    margin: 20px;
+    border: dotted;
+    border-width: .01vh;
+    border-color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.container-div {
+    max-height: 100%;
+    /* min-width: 50%; */
+    /* width: 50%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-grow: 1;
+    margin: 0;
+    flex: 1 1 50%;
+}
+
+.headline {
+    text-align: center;
+    font-family: 'Abril Fatface', serif;
+    font-size: 40px;
+    font-weight: normal;
+    color: #f28b00;
+    padding-bottom: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* about page styling */
+
+.about_img{
+    /* max-width: 100%; */
+    max-height: 60vh;
+    display: flex;
+    vertical-align: middle;
+    align-self: flex-end;
+    /* padding-left:10px; */
+    padding-right: 40px;
+}
+
+.about_container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about_text {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Avenir', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    /* max-width: 30vw; */
+    /* max-width: 100%; */
+    /* display: inline-block; */
+    vertical-align:middle;
+    /*float: left;*/
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* contact page styling */
+
+.contact_container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-container-div {
+    margin: 0;
+    max-height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.contact_link {
+    text-align: center;
+    font-family: 'Avenir', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    padding:15px;
+    padding-right: 20px;
+    height: 110px;
+}
+
+.form {
+    justify-content: left;
+    margin: 0;
+}
+
+.contact_text {
+    text-align: left;
+    font-family: 'Avenir', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+.box_cont {
+    padding-bottom: 15px;
+}
+
+.form_box {
+    padding-bottom: 15px;
+    font-family: 'Avenir', sans-serif;
+    width: 350px;
+    padding: 5px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.summary_box {
+    width: 350px;
+    height: 120px;
+    font-family: 'Avenir', sans-serif;
+    padding: 5px;
+    border-color: lightgrey;
+}
+
+.submit_button {
+    background-color: #f28b00;
+    color: white;
+    font-family: 'Avenir', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+}
+
+/* ----------------------- */
 
 .desktop {
     display: none;
@@ -156,47 +313,11 @@ body {
     padding-bottom:100px;
 }
 
-.about_cont {
-    background: white;
-    padding: 1%;
-    margin: 10px;
-    display: inline-block;
-    text-align: left;
-    width: 1000px;
-}
 
-.about_cont_cont {
-    display: inline-block;
-    vertical-align: middle;
-}
 
-.about_text {
-    text-align: left;
-    font-family: 'Avenir', sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    color: black;
-    max-width: 30vw;
-    display: inline-block;
-    vertical-align:middle;
-    /*float: left;*/
-}
 
-.about_headline {
-    text-align: left;
-    font-family: 'Abril Fatface', serif;
-    font-size: 30px;
-    font-weight: normal;
-    color: #f28b00;
-    padding-bottom: 15px;
-}
 
-.about_img{
-    max-width: 100%;
-    display: inline-block;
-    vertical-align:middle;
-    padding-left:10px;
-}
+
 
 .about_logo{
     width: 300px;
@@ -229,54 +350,6 @@ body {
     /*vertical-align: middle;*/
 }
 
-.form {
-    justify-content: left;
-    margin: 0;
-}
-
-.box_cont {
-    padding-bottom: 15px;
-}
-
-.summary_box {
-    width: 350px;
-    height: 120px;
-    font-family: 'Avenir', sans-serif;
-    padding: 5px;
-    border-color: lightgrey;
-}
-
-.submit_button {
-    background-color: #f28b00;
-    color: white;
-    font-family: 'Avenir', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    border: none;
-}
-
-.form_box {
-    padding-bottom: 15px;
-    font-family: 'Avenir', sans-serif;
-    width: 350px;
-    padding: 5px;
-    border-color: lightgrey;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.contact_text {
-    text-align: left;
-    font-family: 'Avenir', sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    color: black;
-    /*padding-left: 45px;
-    display: inline-block;
-    vertical-align:middle;*/
-    /*float: left;*/
-}
-
 .contact_text_top {
     text-align: left;
     font-family: 'Avenir', sans-serif;
@@ -297,16 +370,6 @@ body {
     padding-left: 20px;
 }
 
-.contact_link {
-    text-align: center;
-    font-family: 'Avenir', sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    color: black;
-    padding:15px;
-    padding-right: 20px;
-}
-
 .contact_link_cont{
     /*max-width: 100%;*/
     justify-content: center;
@@ -324,15 +387,7 @@ body {
     text-decoration: none;
 }
 
-.headline {
-    text-align: center;
-    font-family: 'Abril Fatface', serif;
-    font-size: 50px;
-    font-weight: normal;
-    color: black;
-    padding-bottom: 30px;
-    text-decoration: none;
-}
+
 
 .headline_grey {
     text-align: center;
@@ -440,7 +495,7 @@ body {
     font-size: 15px;
     font-weight: normal;
     color: #76777b;
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 10px;
     position: fixed;
     bottom: 0;
@@ -703,9 +758,6 @@ body {
       }
 }
 
-.photo-cont {
-}
-
 .photo {
     background: white;
     padding: 1%;
@@ -714,6 +766,10 @@ body {
 
 main {
     padding: 0 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .checkbox-cont {

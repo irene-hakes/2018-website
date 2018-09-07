@@ -7,12 +7,12 @@ import Contact from './contact'
 
 const Home = () => (
   <div>
-    <a href="about.html">
+    <Link to="/about">
       <div className="logo_cont">
         <span className="headline_welcome">Irene</span>
         <div className="splash_grey">HAKES</div>
       </div>
-    </a>
+    </Link>
   </div>
 )
 
@@ -30,12 +30,15 @@ const Root = () => {
         </div>
       </nav>
       <main>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
+        <div className="container">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </div>
+        <div className="footer">Irene Hakes | New York, NY | Copyright 2018</div>
       </main>
     </div>
   )
