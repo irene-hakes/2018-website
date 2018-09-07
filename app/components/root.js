@@ -10,7 +10,7 @@ const Home = () => (
     <Link to="/about">
       <div className="logo_cont">
         <span className="headline_welcome">Irene</span>
-        <div className="splash_grey">HAKES</div>
+        <div className="headline_grey">HAKES</div>
       </div>
     </Link>
   </div>
@@ -25,7 +25,7 @@ const Root = () => {
             <Link to="/about" className="nav_bar_item">ABOUT</Link>
             <Link to="/projects" className="nav_bar_item">PROJECTS</Link>
             <Link to="/contact" className="nav_bar_item">CONTACT</Link>
-            <div className="nav_bar_item"><a href="blog.html">BLOG</a></div>
+            <div className="nav_bar_item"><a href="https://medium.com/@irenehakes">BLOG</a></div>
           </div>
         </div>
       </nav>
