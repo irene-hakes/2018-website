@@ -5,11 +5,8 @@ const about = () => (
     <div className="headline">About Irene</div>
     <div className="about_container">
       <div className="container-div">
-        <div className="about_text">Irene grew up in Brooklyn, NY, where her fascination for buildings began. Persuing that
-          passion, she enrolled in the Architecture School of Syracuse University where she received her Bachelor of Architecture.
-          As a part of her degree, she spent a semester in Florence, Italy studying Italian architecture and culture. She
-          received her State of New York Architecture License and has been certified by the National Council of Architectural
-          Registration Boards (NCARB). She continues to work and reside in her home city.
+        <div className="about_text">After graduating from Syracuse University with a Bachelor of Architecture, Irene worked in the field for 7 years. Growing up, she had loved solving puzzles, math as well as the arts and design. Architecture felt like the right fit and so Irene decided to pursue a degree and to obtain her license in the state of New York. Working in the field, Irene enjoyed tackling different problems and putting her creative stamp on projects. Always eager to keep learning, Irene was introduced to software engineering. She started creating a couple of sites for her own use and quickly developed a love for what it could do.
+Irene made the decision to pursue software engineering full time and enrolled in the Grace Hopper program at Fullstack Academy, which only solidified her interest even further. She is currently seeking a role in the front end doing work on UX/UI design.
         </div>
       </div>
       <div className="container-div">

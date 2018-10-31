@@ -4,6 +4,7 @@ import { Route, Link, Switch } from 'react-router-dom'
 import About from './about'
 import Projects from './projects'
 import Contact from './contact'
+import CapstoneProject from './capstone-project'
 
 const Home = () => (
   <div>
@@ -34,8 +35,9 @@ const Root = () => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/projects" component={Projects} />
+            <Route exact path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
+            <Route path="/projects/StickerGO" component={CapstoneProject} />
           </Switch>
         </div>
         <div className="footer">Irene Hakes | New York, NY | Copyright 2018</div>
