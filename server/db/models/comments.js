@@ -13,7 +13,8 @@ const Comments = db.define('comments', {
     type: Sequelize.STRING,
     allowNull: false,
     validate: {
-      notEmpty: true
+      notEmpty: true,
+      isEmail: true
     }
   },
   message: {

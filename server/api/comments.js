@@ -2,7 +2,7 @@ const router = require('express').Router()
 const Comments = require('../db/models/comments')
 module.exports = router
 
-router.post('/:id', async (req, res, next) => {
+router.post('/', async (req, res, next) => {
   try {
     const newComment = await Comments.create(req.body)
 
